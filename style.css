@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 
 @font-face {
   font-family: odin-font;
@@ -14,30 +14,110 @@ body {
   height: 100vh;
   display: flex;
   overflow: hidden;
-  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 main {
   width: 70%;
-  padding: 2rem;
 }
 
-.header {
-  width: 37rem;
+header {
+  width: 35rem;
+  margin: 2rem;
 }
 
-.header p {
+header p {
   color: rgb(22, 22, 22);
   font-size: 1.2rem;
-  font-weight: bold;
-  line-height: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4rem;
   margin-bottom: 2rem;
 }
 
-.header em {
+header em {
   font-style: italic;
 }
 
+/* ------------------------------------------------- */
+
+form {
+  background-color: white;
+  width: 100%;
+  padding-top: 1rem;
+}
+.form-input-fieldset {
+  padding: 2rem;
+  box-shadow: 0px 4px 10px -2px rgb(0 0 0 / 20%);
+}
+
+.form-input-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.form-input-group {
+  width: 30rem;
+  display: flex;
+  row-gap: 1.2rem;
+  column-gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input > label {
+  font-size: 0.7rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #444446;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.form-input > input {
+  width: 13rem;
+  height: 1.7rem;
+  margin-top: 5px;
+  border: 1px solid #e5e7eb;
+  border-radius: 3px;
+  outline: none;
+  padding-left: 10px;
+}
+.form-input > input:focus {
+  border-color: #2b2bf5;
+  box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 20%);
+}
+
+.button-container {
+  padding: 2rem;
+}
+
+.submit-button {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: white;
+  background-color: #596d48;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.button-container  p{
+  font-size: 0.9rem;
+}
+
+.login-button {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form-input > .error{
+  border-color: red;
+}
 /* -------------------sidebar styles------------------- */
 .sidebar {
   width: 40%;
