@@ -1,10 +1,46 @@
+@font-face {
+  font-family: odin-font;
+  src: url(./font/Norse-Bold.otf);
+}
+
 body {
   height: 100vh;
   display: flex;
   overflow: hidden;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sidebar {
-  width: 35%;
+  width: 30%;
   background: url("./img/sidebar.jpg") center/100% 100% no-repeat;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar>.logo-container {
+  width: 100%;
+  height: 7rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar .sidebar-logo-icon {
+  height: 90%;
+}
+.sidebar .sidebar-logo-text {
+  font-family: odin-font;
+  font-size: 5rem;
+  color: white;
+}
+
+.sidebar .img-credit,.img-credit-link {
+  color: white;
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+  
 }
