@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="RESET.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
     <title>Sign Up</title>
   </head>
   <body>
@@ -51,21 +52,21 @@
           <div class="form-input-group">
             <div class="form-input">
               <label for="user_firstname">FIRST NAME</label>
-              <input type="text" id="user_firstname" required maxlength="20" />
+              <input class="input-focus" type="text" id="user_firstname" required maxlength="20" />
             </div>
             <div class="form-input">
               <label for="user_lastname">LAST NAME</label>
-              <input type="text" id="user_lastname" required maxlength="20" />
+              <input class="input-focus" type="text" id="user_lastname" required maxlength="20" />
             </div>
             <div class="form-input">
               <label for="user_email">EMAIL</label>
-              <input type="email" id="user_email" required />
+              <input class="input-focus" type="email" id="user_email" required />
             </div>
             <div class="form-input">
               <label for="user_phone">PHONE NUMBER</label>
-              <input type="tel" id="user_phone" required pattern="(\d{10})"/>
+              <input class="input-focus" type="tel" id="user_phone" required pattern="(\d{10})"/>
             </div>
-            <div class="form-input">
+            <div class="form-input Password-div">
               <label for="password">PASSWORD</label>
               <input type="password" id="password" required />
             </div>

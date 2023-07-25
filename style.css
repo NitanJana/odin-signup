@@ -85,7 +85,7 @@ form {
   outline: none;
   padding-left: 10px;
 }
-.form-input > input:focus {
+.input-focus:focus {
   border-color: #2b2bf5;
   box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 20%);
 }
@@ -117,6 +117,12 @@ form {
 
 .form-input > .error{
   border-color: red;
+}
+
+.PasswordMatchingError{
+  color: red;
+  font-size: 0.8rem;
+  padding-top: 5px;
 }
 /* -------------------sidebar styles------------------- */
 .sidebar {
