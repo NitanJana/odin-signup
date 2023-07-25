@@ -115,15 +115,22 @@ form {
   font-weight: 500;
 }
 
-.form-input > .error{
+.form-input > .invalidInput{
   border-color: red;
 }
 
-.PasswordMatchingError{
+.invalidPassword{
   color: red;
   font-size: 0.8rem;
   padding-top: 5px;
 }
+.validPassword{
+  color: green;
+  font-size: 0.8rem;
+  padding-top: 5px;
+}
+
+
 /* -------------------sidebar styles------------------- */
 .sidebar {
   width: 40%;
