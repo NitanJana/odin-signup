@@ -1,0 +1,10 @@
+body {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 35%;
+  background: url("./img/sidebar.jpg") center/100% 100% no-repeat;
+}
